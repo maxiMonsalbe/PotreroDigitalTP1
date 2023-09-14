@@ -1,0 +1,91 @@
+.titulo {
+    text-align: center;
+    font-size: 120px;
+    height: 200px;
+    color: transparent; 
+    -webkit-text-fill-color: transparent; 
+    padding: 20px;
+    background-image: url('imagenes/fondoTitulo.jpg');
+    background-size: cover;
+    background-position: center center;
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: white; 
+    text-shadow: 2px 2px
+
+}
+
+
+.subTitulo {
+    color: rgb(107, 116, 164);
+    font-size: 60px;
+    text-align: left;
+    text-decoration: underline; 
+}
+
+
+.sonidoAmbiente {
+    color: rgb(25, 37, 103);
+    font-size: 20px;
+    text-align: left; 
+}
+
+.lista {
+    color: rgb(6, 13, 55);
+    font-size: 20px;
+    text-align: left; 
+}
+
+.parrafo {
+    font-size: 16px;
+    color: #333; 
+    line-height: 1.5;
+    margin-bottom: 20px; 
+    text-align: justify;
+    padding: 10px; 
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc;
+}
+
+
+.miTabla {
+    width: 60%; 
+    border-collapse: collapse;
+}
+.miTabla th, .miTabla td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.miTabla th {
+    background-color: #f0f0f0;
+}
+
+.miTabla tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.miTabla tr:hover {
+    background-color: #ddd;
+}
+
+
+
+.miTablaImagen {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.miTablaImagen td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px; 
+}
+
+.miTablaImagen img {
+    max-width: 100%;
+    border-radius: 10px; 
+}
+
+
