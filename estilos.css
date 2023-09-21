@@ -29,6 +29,14 @@
     text-align: left; 
 }
 
+
+.textoVario {
+    color: rgb(25, 37, 103);
+    font-size: 20px;
+    text-align: left; 
+}
+
+
 .lista {
     color: rgb(6, 13, 55);
     font-size: 20px;
@@ -86,6 +94,53 @@
 .miTablaImagen img {
     max-width: 100%;
     border-radius: 10px; 
+}
+
+
+nav {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+footer {
+    background-color:rgb(107, 116, 164);
+    padding: 20px;
+    text-align: center;
+}
+
+
+footer img {
+    width: 30px; 
+    height: 30px;
+    margin: 0 10px; 
+}
+
+footer a {
+    color: white;
+}
+
+footer p {
+    color: white;
+}
+
+
+.whatsapp-icon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
 }
 
 
