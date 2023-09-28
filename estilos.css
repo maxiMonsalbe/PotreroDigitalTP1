@@ -116,9 +116,45 @@ nav a {
 }
 
 footer {
-    background-color:rgb(107, 116, 164);
+    background-color: rgb(107, 116, 164);
     padding: 20px;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-left img {
+    max-width: 50px;
+}
+
+.footer-center {
+    display: flex;
+    align-items: center;
+}
+
+.footer-center img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+.footer-center img {
+    width: 90px; 
+    height: 90px; 
+    margin: 0 15px; 
+}
+
+.footer-right p {
+    color: white;
+    text-align: right;
+    max-width: 300px; 
 }
 
 
@@ -144,3 +180,32 @@ footer p {
 }
 
 
+header {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; 
+    background-color: #f0f0f0; 
+}
+
+.logo img {
+    max-height: 150px; 
+    max-width: 150px;
+}
+
+.title {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0 20px; 
+}
+
+.social-icons {
+    display: flex;
+}
+  
+header img {
+    width: 180px; 
+    height: 180px;
+    margin: 0 10px; 
+}
